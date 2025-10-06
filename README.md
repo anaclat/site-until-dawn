@@ -148,7 +148,11 @@ until-dawn-website/
 3. **Acesse no navegador**
    ```
    http://localhost:8000
+
    ```
+
+![Until Dawn Inicio](./images/site/inicio.png)
+
 
 ### Estrutura de Desenvolvimento
 ```html
@@ -178,6 +182,8 @@ O site é totalmente responsivo com breakpoints estratégicos:
 - ✅ Tipografia escalável
 - ✅ Menu de navegação mobile-friendly
 - ✅ Touch gestures para dispositivos móveis
+
+![Until Dawn Android](./images/site/android.png)
 
 ---
 
