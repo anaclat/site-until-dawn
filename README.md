@@ -68,12 +68,12 @@ until-dawn-website/
 ### Paleta de Cores
 ```css
 :root {
-    --blood-red: #8b0000;      /* Sangue - Destaque principal */
-    --dark-blood: #5a0000;     /* Sangue escuro */
-    --deep-black: #000000;     /* Preto profundo */
-    --gold: #d4af37;          /* Dourado - Elementos premium */
-    --silver: #c0c0c0;        /* Prata - Texto secundário */
-    --moonlight: #e8e8e8;     /* Luz lunar - Texto principal */
+    --blood-red: #8b0000;      / Sangue - Destaque principal /
+    --dark-blood: #5a0000;     / Sangue escuro /
+    --deep-black: #000000;     / Preto profundo /
+    --gold: #d4af37;          / Dourado - Elementos premium /
+    --silver: #c0c0c0;        / Prata - Texto secundário /
+    --moonlight: #e8e8e8;     / Luz lunar - Texto principal /
 }
 ```
 
