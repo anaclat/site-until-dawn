@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elenco | Until Dawn</title>
-    <link rel="stylesheet" href="./style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-skull">💀</div>
+        <div class="loading-text">Carregando elenco...</div>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress"></div>
+
     <!-- Efeitos de fundo -->
     <div class="blood-drips"></div>
     <div class="fog-overlay"></div>
@@ -27,8 +36,9 @@
         <ul>
             <li><a href="index.html" class="nav-link">Sobre o Filme</a></li>
             <li><a href="elenco.html" class="nav-link active">Elenco & Equipe</a></li>
-            <li><a href="extras.html" class="nav-link">Extras - O jogo</a></li>
+            <li><a href="extras.html" class="nav-link">Extras</a></li>
         </ul>
+        <button class="menu-toggle" aria-label="Menu de navegação" aria-expanded="false">☰</button>
     </nav>
     
     <!-- Conteúdo Principal -->
@@ -40,7 +50,7 @@
             <div class="full-cast-grid">
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Ella.jpg" 
+                        <img src="images/elenco/Ella.jpg" 
                              alt="Ella Rubin" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -56,7 +66,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Peter.jpg" 
+                        <img src="images/elenco/Peter.jpg" 
                              alt="Peter Stormare" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -72,7 +82,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Maia.jpg" 
+                        <img src="images/elenco/Maia.jpg" 
                              alt="Maia Mitchell" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -88,7 +98,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Michael.jpg" 
+                        <img src="images/elenco/Michael.jpg" 
                              alt="Michael Cimino" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -104,7 +114,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Odessa.jpg" 
+                        <img src="images/elenco/Odessa.jpg" 
                              alt="Odessa A'zion" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -120,7 +130,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/belmont.jpg" 
+                        <img src="images/elenco/belmont.jpg" 
                              alt="Belmont Cameli" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -136,7 +146,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Jiyoung.jpg" 
+                        <img src="images/elenco/Jiyoung.jpg" 
                              alt="Ji Young Yoo" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -152,7 +162,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/Willem .jpg" 
+                        <img src="images/elenco/Willem .jpg" 
                              alt="Willem van der Vegt" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -168,7 +178,7 @@
 
                 <div class="cast-member">
                     <div class="cast-photo-container">
-                        <img src="./images/elenco/mariann.jpeg" 
+                        <img src="images/elenco/mariann.jpeg" 
                              alt="Mariann hermanyi" class="cast-photo">
                     </div>
                     <div class="cast-details">
@@ -216,6 +226,12 @@
             <p>&copy; 2025 Until Dawn - Noite de Terror. Projeto acadêmico para disciplina de Front-End I.</p>
         </div>
     </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>

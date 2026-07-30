@@ -16,12 +16,11 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://seudominio.com/until-dawn">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     
     <style>
         /* Estilo para substituir o frameborder obsoleto */
@@ -31,6 +30,15 @@
     </style>
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-skull">💀</div>
+        <div class="loading-text">Entrando na noite...</div>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress"></div>
+
     <!-- Efeitos de fundo -->
     <div class="blood-drips"></div>
     <div class="fog-overlay"></div>
@@ -51,6 +59,7 @@
             <li><a href="elenco.html" class="nav-link">Elenco</a></li>
             <li><a href="extras.html" class="nav-link">Extras</a></li>
         </ul>
+        <button class="menu-toggle" aria-label="Menu de navegação" aria-expanded="false">☰</button>
     </nav>
     
     <!-- Conteúdo Principal -->
@@ -133,7 +142,7 @@
             <div class="cast-grid">
                 <div class="cast-card">
                     <div class="cast-image">
-                        <img src="./images/elenco/Ella.jpg" alt="Ella Rubin" loading="lazy">
+                        <img src="images/elenco/Ella.jpg" alt="Ella Rubin" loading="lazy">
                         <div class="cast-overlay">
                             <span class="character-name">Clover</span>
                         </div>
@@ -146,7 +155,7 @@
                 
                 <div class="cast-card">
                     <div class="cast-image">
-                        <img src="./images/elenco/Peter.jpg" alt="Peter Stormare" loading="lazy">
+                        <img src="images/elenco/Peter.jpg" alt="Peter Stormare" loading="lazy">
                         <div class="cast-overlay">
                             <span class="character-name">Dr. Allan Hill</span>
                         </div>
@@ -159,7 +168,7 @@
                 
                 <div class="cast-card">
                     <div class="cast-image">
-                        <img src="./images/elenco/Maia.jpg" alt="Maia Mitchell" loading="lazy">
+                        <img src="images/elenco/Maia.jpg" alt="Maia Mitchell" loading="lazy">
                         <div class="cast-overlay">
                             <span class="character-name">Melanie</span>
                         </div>
@@ -224,6 +233,12 @@
             <p>&copy; 2025 Until Dawn - Noite de Terror. Projeto acadêmico para disciplina de Front-End I.</p>
         </div>
     </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>

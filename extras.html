@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extras | Until Dawn</title>
-    <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-skull">💀</div>
+        <div class="loading-text">Explorando os segredos...</div>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress"></div>
+
     <!-- Efeitos de fundo -->
     <div class="blood-drips"></div>
     <div class="fog-overlay"></div>
@@ -29,6 +38,7 @@
             <li><a href="elenco.html" class="nav-link">Elenco & Equipe</a></li>
             <li><a href="extras.html" class="nav-link active">Extras</a></li>
         </ul>
+        <button class="menu-toggle" aria-label="Menu de navegação" aria-expanded="false">☰</button>
     </nav>
     
     <!-- Conteúdo Principal -->
@@ -39,7 +49,7 @@
             
             <div class="game-content">
                 <div class="game-image-container">
-                    <img src="./images/filme/until dawn.jpg" alt="Capa do jogo Until Dawn" class="game-image">
+                    <img src="images/filme/until dawn.jpg" alt="Capa do jogo Until Dawn" class="game-image">
                     <div class="image-caption">Until Dawn - O jogo que revolucionou o terror interativo</div>
                 </div>
                 
@@ -213,6 +223,12 @@
             <p>&copy; 2025 Until Dawn - Noite de Terror. Projeto acadêmico para disciplina de Front-End I.</p>
         </div>
     </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
